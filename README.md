@@ -33,3 +33,15 @@ Cloning into 'testing'...
 remote: Enumerating objects: 3, done.
 remote: Counting objects: 100% (3/3), done.
 remote: Total 3 (delta 0), reused 0 (delta 0), pack-r# testing
+Dockerfile | 14 ++++++++++++++
+ 1 file changed, 14 insertions(+)
+ create mode 100644 Dockerfile
+ubuntu@LAPTOP-HGQGHTLJ:~/testing$ git checkout Dt-127
+Switched to branch 'Dt-127'
+ubuntu@LAPTOP-HGQGHTLJ:~/testing$ git merge origin/main
+Updating 5b4d9d4..cba4771
+Fast-forward
+ Dockerfile | 14 ++++++++++++++
+ 1 file changed, 14 insertions(+)
+ create mode 100644 Dockerfile
+ubuntu@LAPTOP-HGQGHTLJ:~/testing$ 
